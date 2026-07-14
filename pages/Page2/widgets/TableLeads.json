@@ -164,10 +164,6 @@
   "parentId": "0",
   "parentRowSpace": 10,
   "primaryColumns": {
-    "Prioridade": {
-      "isCellEditable": true,
-      "isEditable": true
-    },
     "criado_em": {
       "alias": "criado_em",
       "allowCellWrapping": false,
@@ -457,10 +453,6 @@
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
-    },
-    "undefined": {
-      "isCellEditable": true,
-      "isEditable": true
     },
     "valor_estimado": {
       "alias": "valor_estimado",
