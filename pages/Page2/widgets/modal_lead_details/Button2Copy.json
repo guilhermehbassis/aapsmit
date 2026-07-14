@@ -32,7 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{AtualizarLead.run().then(() => {});\nBuscarLeads.run();\ncloseModal(modal_lead_details.name);}}",
+  "onClick": "{{AtualizarLead.run().then(() => {\n  AtualizarLead.run();\n  BuscarLeads.run();\n});\ncloseModal(modal_lead_details.name);}}",
   "parentId": "tjuoi5q1b0",
   "placement": "CENTER",
   "recaptchaType": "V3",
