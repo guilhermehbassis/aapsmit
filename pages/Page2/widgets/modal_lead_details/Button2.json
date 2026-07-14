@@ -32,7 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{InserirHistorico.run();\nBuscarHistorico.run();\nremoveValue(\"\")}}",
+  "onClick": "{{InserirHistorico.run().then(() => {\n  JSObject1.Button2onClick();\n  BuscarHistorico.run();\n});\nBuscarHistorico.run();}}",
   "parentId": "tjuoi5q1b0",
   "placement": "CENTER",
   "recaptchaType": "V3",

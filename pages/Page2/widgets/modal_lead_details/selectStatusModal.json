@@ -53,7 +53,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 46,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"label\": \"Novo\",\n    \"value\": \"Novo\"\n  },\n  {\n    \"label\": \"Em Contato\",\n    \"value\": \"Em Contato\"\n  },\n  {\n    \"label\": \"Qualificado\",\n    \"value\": \"Qualificado\"\n  },\n  {\n    \"label\": \"Quente\",\n    \"value\": \"Quente\"\n  },\n  {\n    \"label\": \"Ganho\",\n    \"value\": \"Ganho\"\n  },\n  {\n    \"label\": \"Frio\",\n    \"value\": \"Frio\"\n  },\n  {\n    \"label\": \"Proposta\",\n    \"value\": \"Proposta\"\n  }\n]",
+  "sourceData": "[\n  {\n    \"label\": \"Todos\",\n    \"value\": \"\"\n  },\n  {\n    \"label\": \"Novo\",\n    \"value\": \"Novo\"\n  },\n  {\n    \"label\": \"Em Contato\",\n    \"value\": \"Em Contato\"\n  },\n  {\n    \"label\": \"Qualificado\",\n    \"value\": \"Qualificado\"\n  },\n  {\n    \"label\": \"Quente\",\n    \"value\": \"Quente\"\n  },\n  {\n    \"label\": \"Ganho\",\n    \"value\": \"Ganho\"\n  },\n  {\n    \"label\": \"Frio\",\n    \"value\": \"Frio\"\n  },\n  {\n    \"label\": \"Perdido\",\n    \"value\": \"Perdido\"\n  },\n  {\n    \"label\": \"Proposta\",\n    \"value\": \"Proposta\"\n  }\n]",
   "topRow": 11,
   "type": "SELECT_WIDGET",
   "version": 1,
