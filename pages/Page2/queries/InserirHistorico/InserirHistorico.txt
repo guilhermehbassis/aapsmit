@@ -1,0 +1,15 @@
+INSERT INTO public.historico_interacoes
+
+(
+lead_id,
+interacao,
+criado_em
+)
+
+VALUES
+
+(
+{{TableLeads.selectedRow.id}},
+{{txtInteracao.text}},
+NOW()
+);

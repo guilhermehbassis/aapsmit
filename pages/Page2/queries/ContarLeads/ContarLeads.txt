@@ -1,0 +1,12 @@
+SELECT COUNT(*) total
+FROM public.leads
+WHERE
+(
+    nome ILIKE '%' || {{InputBusca.text || ''}} || '%'
+    OR empresa ILIKE '%' || {{InputBusca.text || ''}} || '%'
+)
+AND
+(
+    {{!SelectStatus.selectedOptionValue}}
+    OR status = {{SelectStatus.selectedOptionValue}}
+);

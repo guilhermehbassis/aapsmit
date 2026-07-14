@@ -1,0 +1,15 @@
+SELECT *
+FROM public.leads
+WHERE
+(
+    nome ILIKE '%{{InputBusca.text || ""}}%'
+    OR empresa ILIKE '%{{InputBusca.text || ""}}%'
+)
+AND
+(
+    '{{SelectStatus.selectedOptionValue || ""}}' = ''
+    OR status = '{{SelectStatus.selectedOptionValue}}'
+)
+ORDER BY id
+LIMIT {{TableLeads.pageSize}}
+OFFSET {{TableLeads.pageSize * (TableLeads.pageNo - 1)}};

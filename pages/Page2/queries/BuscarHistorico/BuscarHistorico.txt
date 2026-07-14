@@ -1,0 +1,4 @@
+SELECT *
+FROM public.historico_interacoes
+WHERE lead_id={{TableLeads.selectedRow.id}}
+ORDER BY criado_em DESC;

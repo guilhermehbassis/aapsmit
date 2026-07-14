@@ -1,0 +1,66 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "defaultOptionValue": "Novo",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "l5qufrqug1",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Pesquisar",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 24,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 11,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{BuscarLeads.run();\nContarLeads.run()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 25,
+  "originalTopRow": 18,
+  "parentColumnSpace": 20.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Todos\",\n    \"value\": \"\"\n  },\n  {\n    \"label\": \"Novo\",\n    \"value\": \"Novo\"\n  },\n  {\n    \"label\": \"Em Contato\",\n    \"value\": \"Em Contato\"\n  },\n  {\n    \"label\": \"Qualificado\",\n    \"value\": \"Qualificado\"\n  },\n  {\n    \"label\": \"Quente\",\n    \"value\": \"Quente\"\n  },\n  {\n    \"label\": \"Ganho\",\n    \"value\": \"Ganho\"\n  },\n  {\n    \"label\": \"Frio\",\n    \"value\": \"Frio\"\n  },\n  {\n    \"label\": \"Proposta\",\n    \"value\": \"Proposta\"\n  }\n]",
+  "topRow": 7,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "6h9mgn3jkr",
+  "widgetName": "SelectStatus"
+}

@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( TableLeads.selectedRow.status))(selectStatusModal.options, selectStatusModal.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "jx6wk5f4lj",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Status",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 26,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 14.625,
+  "parentId": "tjuoi5q1b0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 46,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Novo\",\n    \"value\": \"Novo\"\n  },\n  {\n    \"label\": \"Em Contato\",\n    \"value\": \"Em Contato\"\n  },\n  {\n    \"label\": \"Qualificado\",\n    \"value\": \"Qualificado\"\n  },\n  {\n    \"label\": \"Quente\",\n    \"value\": \"Quente\"\n  },\n  {\n    \"label\": \"Ganho\",\n    \"value\": \"Ganho\"\n  },\n  {\n    \"label\": \"Frio\",\n    \"value\": \"Frio\"\n  },\n  {\n    \"label\": \"Proposta\",\n    \"value\": \"Proposta\"\n  }\n]",
+  "topRow": 11,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "n08uio5alh",
+  "widgetName": "selectStatusModal"
+}
