@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 73,
+  "bottomRow": 69,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -45,7 +45,7 @@
     "criado_em",
     "customColumn1"
   ],
-  "columnUpdatedAt": 1783992357219,
+  "columnUpdatedAt": 1783992848187,
   "columnWidthMap": {
     "email": 198,
     "id": 86
@@ -144,7 +144,7 @@
   "isVisible": true,
   "isVisibleDownload": true,
   "isVisibleFilters": true,
-  "isVisiblePagination": false,
+  "isVisiblePagination": true,
   "isVisibleSearch": true,
   "key": "mf3uwbyavm",
   "label": "Data",
@@ -164,6 +164,10 @@
   "parentId": "0",
   "parentRowSpace": 10,
   "primaryColumns": {
+    "Prioridade": {
+      "isCellEditable": true,
+      "isEditable": true
+    },
     "criado_em": {
       "alias": "criado_em",
       "allowCellWrapping": false,
@@ -185,8 +189,8 @@
       "isDiscardVisible": true,
       "isEditable": true,
       "isSaveVisible": true,
-      "isVisible": false,
-      "label": "criado_em",
+      "isVisible": true,
+      "label": "Criado em",
       "notation": "standard",
       "originalId": "criado_em",
       "sticky": "",
@@ -454,6 +458,10 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "undefined": {
+      "isCellEditable": true,
+      "isEditable": true
+    },
     "valor_estimado": {
       "alias": "valor_estimado",
       "allowCellWrapping": false,
@@ -476,7 +484,7 @@
       "isEditable": true,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "valor_estimado",
+      "label": "Valor",
       "notation": "standard",
       "originalId": "valor_estimado",
       "sticky": "",
@@ -489,12 +497,12 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "tableData": "{{BuscarLeads.data}}",
   "textSize": "0.875rem",
-  "topRow": 20,
+  "topRow": 16,
   "totalRecordsCount": "{{ContarLeads.data[0].total}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
